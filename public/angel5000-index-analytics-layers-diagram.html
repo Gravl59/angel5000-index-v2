@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angel5000 Index & Analytics Layers</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .diagram-container {
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .layer-box {
+      background: white;
+      border: 1.5px solid #334155;
+      border-radius: 8px;
+      padding: 32px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      position: relative;
+    }
+
+    .layer-header {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1e293b;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    .analytics-layer {
+      margin-bottom: 48px;
+    }
+
+    .analytics-label {
+      font-size: 14px;
+      color: #64748b;
+      font-style: italic;
+      margin-left: 8px;
+    }
+
+    .layer-content {
+      color: #475569;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .section-title {
+      font-weight: 600;
+      color: #1e293b;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+
+    .section-title:first-child {
+      margin-top: 0;
+    }
+
+    .bullet-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .bullet-list li {
+      padding-left: 20px;
+      position: relative;
+      margin-bottom: 6px;
+    }
+
+    .bullet-list li:before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    .emphasis {
+      font-weight: 600;
+      color: #1e293b;
+    }
+
+    .blue-text {
+      color: #2563eb;
+    }
+
+    .arrow-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 24px 0;
+      position: relative;
+    }
+
+    .arrow {
+      width: 2px;
+      height: 40px;
+      background: #2563eb;
+      position: relative;
+    }
+
+    .arrow:after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 12px solid #2563eb;
+    }
+
+    .arrow-label {
+      position: absolute;
+      left: calc(50% + 24px);
+      font-size: 13px;
+      color: #64748b;
+      white-space: nowrap;
+      font-style: italic;
+    }
+
+    .note-box {
+      background: #f8fafc;
+      border-left: 3px solid #2563eb;
+      padding: 12px 16px;
+      margin-top: 16px;
+      font-size: 13px;
+      color: #475569;
+      line-height: 1.6;
+    }
+
+    .process-flow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 12px 0;
+      font-size: 13px;
+      color: #475569;
+    }
+
+    .process-arrow {
+      color: #94a3b8;
+      font-weight: bold;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .diagram-container {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="diagram-container">
+
+    <!-- Analytics Layer (Top) -->
+    <div class="layer-box analytics-layer">
+      <div class="layer-header">
+        OPTIONAL ANALYTICS LAYER
+      </div>
+
+      <div style="font-size: 13px; color: #64748b; margin-bottom: 20px;">
+        Used for insights only — not index mechanics
+      </div>
+
+      <div class="layer-content">
+        <div class="section-title">Optional Inputs (Founder-Provided)</div>
+        <ul class="bullet-list">
+          <li>Headcount range (1–5, 6–10, 11–25, 25+)</li>
+          <li>Sector classification</li>
+          <li>Product launched (Yes/No)</li>
+          <li>Paying customers (Yes/No)</li>
+          <li>Revenue band (self-declared): $0 / $1–100k / $100k–1M / $1M+</li>
+        </ul>
+
+        <div class="section-title" style="margin-top: 20px;">Used For</div>
+        <ul class="bullet-list">
+          <li>Cohort analytics</li>
+          <li>Sector heatmaps</li>
+          <li>Trend reporting</li>
+          <li>Longitudinal research</li>
+        </ul>
+
+        <div class="note-box">
+          <span class="emphasis">Does NOT affect inclusion, weighting, or index-level movement.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrow pointing down from Analytics to Index -->
+    <div class="arrow-container">
+      <div class="arrow"></div>
+      <div class="arrow-label">Insights only, not mechanics</div>
+    </div>
+
+    <!-- Index Layer (Bottom) -->
+    <div class="layer-box">
+      <div class="layer-header">
+        INDEX LAYER <span class="blue-text">(Core Benchmark)</span>
+      </div>
+
+      <div class="layer-content">
+        <div class="process-flow">
+          <span>Universe</span>
+          <span class="process-arrow">→</span>
+          <span>Eligibility</span>
+          <span class="process-arrow">→</span>
+          <span>Random Sampling</span>
+        </div>
+
+        <ul class="bullet-list" style="margin-top: 16px;">
+          <li><span class="emphasis">5,000 equal-weight constituents</span></li>
+          <li>No scoring, no picking, no weighting</li>
+          <li>10-year inclusion window</li>
+        </ul>
+
+        <div class="section-title" style="margin-top: 20px;">Index moves ONLY on hard outcomes:</div>
+        <ul class="bullet-list">
+          <li>Exits</li>
+          <li>Shutdowns</li>
+          <li>Survival milestones</li>
+        </ul>
+
+        <div class="section-title" style="margin-top: 16px; color: #dc2626;">
+          Fundraising, YC/TS acceptances, users/revenue DO NOT move the index
+        </div>
+
+        <div class="note-box" style="border-left-color: #2563eb; background: #eff6ff; margin-top: 20px;">
+          <span class="emphasis">"This layer defines the benchmark"</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel5000 - How It Works</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'SF Pro', sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 300;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .flow-container {
+            background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%);
+            border: 1px solid #bfdbfe;
+            border-radius: 12px;
+            padding: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e2e8f0;
+            flex: 1;
+            min-width: 140px;
+            max-width: 180px;
+        }
+
+        .card.highlight {
+            border: 2px solid #3b82f6;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+            min-width: 160px;
+            max-width: 200px;
+        }
+
+        .card.future {
+            background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+            border: 2px dashed #94a3b8;
+            box-shadow: none;
+        }
+
+        .card-icon {
+            width: 28px;
+            height: 28px;
+            margin: 0 auto 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card.highlight .card-icon {
+            width: 32px;
+            height: 32px;
+        }
+
+        .card h2 {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 6px;
+        }
+
+        .card.highlight h2 {
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            font-size: 12px;
+            color: #64748b;
+        }
+
+        .card-features {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #475569;
+            line-height: 1.6;
+        }
+
+        .card-features div {
+            margin-bottom: 4px;
+        }
+
+        .arrow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            flex-shrink: 0;
+        }
+
+        .arrow svg {
+            width: 20px;
+            height: 20px;
+            color: #94a3b8;
+        }
+
+        .arrow p {
+            font-size: 11px;
+            font-weight: 500;
+            color: #64748b;
+            white-space: nowrap;
+        }
+
+        .footer-note {
+            background: #dbeafe;
+            border: 1px solid #93c5fd;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 24px;
+            text-align: center;
+        }
+
+        .footer-note strong {
+            font-weight: 600;
+            color: #1e40af;
+        }
+
+        .footer-note p {
+            font-size: 12px;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 20px;
+            }
+
+            .flow-container {
+                box-shadow: none;
+                border: 1px solid #e2e8f0;
+            }
+
+            .card {
+                box-shadow: none;
+                border: 1px solid #e2e8f0;
+            }
+
+            .card.highlight {
+                box-shadow: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .flow-container {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .arrow svg {
+                transform: rotate(90deg);
+            }
+
+            .card {
+                max-width: 100%;
+                min-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Angel5000: How It Works</h1>
+            <p>From raw startup data to actionable investment signal</p>
+        </div>
+
+        <div class="flow-container">
+            <div class="card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="20" width="20" height="2" rx="1"/>
+                        <path d="M7 16v-4"/>
+                        <path d="M12 16V8"/>
+                        <path d="M17 16v-8"/>
+                    </svg>
+                </div>
+                <h2>Early-Stage Startups</h2>
+                <p>Raw signals</p>
+            </div>
+
+            <div class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+                <p>Noisy data</p>
+            </div>
+
+            <div class="card highlight">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                    </svg>
+                </div>
+                <h2>Angel5000 Index</h2>
+                <p>Standardized 5,000-company cohort selected annually</p>
+            </div>
+
+            <div class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+                <p>Clear signal</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                </div>
+                <h2>Angels / Scouts</h2>
+                <p>Better allocation</p>
+            </div>
+
+            <div class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+                <p>Capital flows</p>
+            </div>
+
+            <div class="card future">
+                <div class="card-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                    </svg>
+                </div>
+                <h2>Future Fund</h2>
+                <p>Derivative</p>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            <p><strong>Index = Product.</strong> Creates market signal for angels. Fund = value capture, not the core business.</p>
+        </div>
+    </div>
+</body>
+</html>

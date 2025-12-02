@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <!-- Gradients for depth -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A6BC2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F5DA9;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="mediumBlueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4BB3E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38A1DB;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4DD4C4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#39C4B6;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Drop shadow filters -->
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.15"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- White background -->
+  <rect width="1920" height="1080" fill="#FFFFFF"/>
+
+  <!-- Base line (subtle) -->
+  <line x1="480" y1="740" x2="1440" y2="740" stroke="#F0F0F0" stroke-width="2"/>
+
+  <!-- Bar 1: Small (Dark Blue) -->
+  <rect x="580" y="540" width="180" height="200" rx="4"
+        fill="url(#blueGrad)"
+        filter="url(#dropShadow)"/>
+
+  <!-- Bar 2: Medium (Medium Blue) -->
+  <rect x="870" y="420" width="180" height="320" rx="4"
+        fill="url(#mediumBlueGrad)"
+        filter="url(#dropShadow)"/>
+
+  <!-- Bar 3: Large (Teal) -->
+  <rect x="1160" y="280" width="180" height="460" rx="4"
+        fill="url(#tealGrad)"
+        filter="url(#dropShadow)"/>
+
+  <!-- Growth arrow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="20" markerHeight="20"
+            refX="18" refY="10" orient="auto">
+      <polygon points="0 4, 20 10, 0 16" fill="#B3B3B3"/>
+    </marker>
+  </defs>
+
+  <line x1="540" y1="220" x2="1380" y2="220"
+        stroke="#B3B3B3"
+        stroke-width="3"
+        marker-end="url(#arrowhead)"
+        opacity="0.8"/>
+</svg>

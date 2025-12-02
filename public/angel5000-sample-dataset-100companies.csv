@@ -1,0 +1,101 @@
+company_id,company_name,founder_name,ein,sector,state,city,date_founded,website,category,unicorn_score,growth_trajectory,funding_stage,employee_range,revenue_estimate,last_updated
+A5K-00001,NeuralSync Technologies,Dr. Sarah Chen,12-3456789,Healthcare/Biotech,CA,San Francisco,2022-03-15,https://neuralsync.example.com,mega-winner,94.2,exponential,Series A,25-50,1000000-5000000,2024-12-01
+A5K-00002,QuantumLeap AI,Michael Rodriguez,98-7654321,AI/Machine Learning,MA,Cambridge,2021-11-22,https://quantumleap.example.com,mega-winner,92.8,exponential,Series B,51-100,5000000-10000000,2024-12-01
+A5K-00003,BioRegen Solutions,Dr. Emily Nakamura,45-6789012,Healthcare/Biotech,NC,Research Triangle,2022-01-08,https://bioregen.example.com,mega-winner,91.5,exponential,Series A,25-50,1000000-5000000,2024-12-01
+A5K-00004,CleanGrid Energy,James Washington,23-4567890,CleanTech/Energy,TX,Austin,2021-09-10,https://cleangrid.example.com,potential-unicorn,87.3,strong,Seed,11-25,500000-1000000,2024-12-01
+A5K-00005,DataFusion Analytics,Priya Patel,67-8901234,Enterprise SaaS,NY,New York,2022-04-18,https://datafusion.example.com,potential-unicorn,86.1,strong,Series A,25-50,1000000-5000000,2024-12-01
+A5K-00006,AgriTech Innovations,Robert Mueller,89-0123456,AgTech,IA,Des Moines,2021-07-25,https://agritech.example.com,potential-unicorn,84.9,strong,Seed,11-25,500000-1000000,2024-12-01
+A5K-00007,SecureChain Systems,Lisa Thompson,34-5678901,Cybersecurity,VA,Arlington,2022-02-14,https://securechain.example.com,potential-unicorn,83.7,strong,Series A,25-50,1000000-5000000,2024-12-01
+A5K-00008,EduNext Platform,Carlos Martinez,56-7890123,EdTech,AZ,Phoenix,2021-12-03,https://edunext.example.com,potential-unicorn,82.4,strong,Seed,11-25,500000-1000000,2024-12-01
+A5K-00009,RoboLogistics Inc,Amanda Foster,78-9012345,Robotics/Automation,MI,Detroit,2022-05-20,https://robologistics.example.com,potential-unicorn,81.8,strong,Series A,25-50,1000000-5000000,2024-12-01
+A5K-00010,HealthMonitor Pro,Kevin Park,90-1234567,Healthcare/Biotech,WA,Seattle,2021-10-11,https://healthmonitor.example.com,potential-unicorn,80.6,strong,Seed,11-25,500000-1000000,2024-12-01
+A5K-00011,SpaceTech Ventures,Alexandra Kim,12-3456788,Aerospace,CA,Los Angeles,2022-01-30,https://spacetech.example.com,potential-unicorn,79.5,moderate,Seed,11-25,500000-1000000,2024-12-01
+A5K-00012,FinSecure Systems,David Goldstein,23-4567891,FinTech,NY,New York,2021-08-15,https://finsecure.example.com,potential-unicorn,78.9,moderate,Series A,25-50,1000000-5000000,2024-12-01
+A5K-00013,GreenBuild Materials,Jennifer Wilson,34-5678902,Construction Tech,CO,Denver,2022-03-08,https://greenbuild.example.com,non-unicorn,76.2,moderate,Seed,6-10,100000-500000,2024-12-01
+A5K-00014,CloudOps Platform,Raj Kumar,45-6789013,DevOps/Cloud,WA,Seattle,2021-11-19,https://cloudops.example.com,non-unicorn,75.8,moderate,Seed,11-25,500000-1000000,2024-12-01
+A5K-00015,FoodTech Delivery,Maria Garcia,56-7890124,Food/Beverage,IL,Chicago,2022-02-25,https://foodtech.example.com,non-unicorn,74.5,moderate,Seed,6-10,100000-500000,2024-12-01
+A5K-00016,MediConnect Hub,Thomas Anderson,67-8901235,Healthcare/Biotech,FL,Miami,2021-09-07,https://mediconnect.example.com,non-unicorn,73.9,moderate,Seed,11-25,500000-1000000,2024-12-01
+A5K-00017,AutoDrive Systems,Sophie Laurent,78-9012346,Automotive Tech,CA,San Jose,2022-04-12,https://autodrive.example.com,non-unicorn,73.2,moderate,Seed,11-25,500000-1000000,2024-12-01
+A5K-00018,EcoPackaging Co,Daniel Brown,89-0123457,Sustainability,OR,Portland,2021-12-20,https://ecopackaging.example.com,non-unicorn,72.5,moderate,Seed,6-10,100000-500000,2024-12-01
+A5K-00019,VirtualEvent Pro,Rachel Green,90-1234568,Event Tech,GA,Atlanta,2022-01-15,https://virtualevent.example.com,non-unicorn,71.8,moderate,Seed,6-10,100000-500000,2024-12-01
+A5K-00020,SmartHome Solutions,William Davis,12-3456787,IoT/Smart Home,TX,Dallas,2021-10-28,https://smarthome.example.com,non-unicorn,71.1,moderate,Seed,11-25,500000-1000000,2024-12-01
+A5K-00021,BioFuel Innovations,Emma Johnson,23-4567892,CleanTech/Energy,MN,Minneapolis,2022-03-22,https://biofuel.example.com,non-unicorn,70.4,moderate,Seed,6-10,100000-500000,2024-12-01
+A5K-00022,RetailAI Analytics,Hassan Ahmed,34-5678903,Retail Tech,NJ,Newark,2021-11-05,https://retailai.example.com,non-unicorn,69.7,moderate,Seed,11-25,500000-1000000,2024-12-01
+A5K-00023,TravelTech Connect,Olivia Martinez,45-6789014,Travel/Tourism,FL,Orlando,2022-02-10,https://traveltech.example.com,non-unicorn,69.0,moderate,Seed,6-10,100000-500000,2024-12-01
+A5K-00024,CyberShield Defense,Matthew Wilson,56-7890125,Cybersecurity,MD,Baltimore,2021-08-30,https://cybershield.example.com,non-unicorn,68.3,moderate,Seed,11-25,500000-1000000,2024-12-01
+A5K-00025,PropTech Ventures,Isabella Rodriguez,67-8901236,Real Estate Tech,CA,San Diego,2022-04-05,https://proptech.example.com,non-unicorn,67.6,moderate,Seed,6-10,100000-500000,2024-12-01
+A5K-00026,HealthData Systems,Christopher Lee,78-9012347,Healthcare/Biotech,MA,Boston,2021-12-12,https://healthdata.example.com,non-unicorn,66.9,slow,Seed,11-25,500000-1000000,2024-12-01
+A5K-00027,LogiChain Pro,Sophia Zhang,89-0123458,Supply Chain,WI,Milwaukee,2022-01-28,https://logichain.example.com,non-unicorn,66.2,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00028,FinPlan Advisor,James Taylor,90-1234569,FinTech,PA,Philadelphia,2021-09-18,https://finplan.example.com,non-unicorn,65.5,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00029,EdLearn Platform,Ava Thompson,12-3456786,EdTech,NC,Charlotte,2022-03-01,https://edlearn.example.com,non-unicorn,64.8,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00030,GreenEnergy Hub,Ethan Miller,23-4567893,CleanTech/Energy,NV,Las Vegas,2021-11-25,https://greenenergy.example.com,non-unicorn,64.1,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00031,FashionTech Studio,Mia Anderson,34-5678904,Fashion Tech,NY,New York,2022-02-18,https://fashiontech.example.com,non-unicorn,63.4,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00032,SportsTech Analytics,Liam White,45-6789015,Sports Tech,OH,Cleveland,2021-08-22,https://sportstech.example.com,non-unicorn,62.7,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00033,LegalTech Solutions,Charlotte Harris,56-7890126,LegalTech,DC,Washington,2022-04-08,https://legaltech.example.com,non-unicorn,62.0,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00034,PetCare Connect,Benjamin Martin,67-8901237,Consumer Services,TX,Houston,2021-12-05,https://petcare.example.com,non-unicorn,61.3,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00035,VoiceTech AI,Amelia Garcia,78-9012348,AI/Machine Learning,CA,Palo Alto,2022-01-20,https://voicetech.example.com,non-unicorn,60.6,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00036,InsureTech Pro,Jacob Lopez,89-0123459,InsurTech,CT,Hartford,2021-09-10,https://insuretech.example.com,non-unicorn,59.9,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00037,WaterTech Systems,Emily Gonzalez,90-1234570,CleanTech/Energy,AZ,Tucson,2022-03-15,https://watertech.example.com,non-unicorn,59.2,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00038,MusicStream Tech,Alexander Perez,12-3456785,Entertainment,TN,Nashville,2021-11-18,https://musicstream.example.com,non-unicorn,58.5,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00039,PhotoEdit Pro,Madison Torres,23-4567894,Creative Tech,WA,Spokane,2022-02-22,https://photoedit.example.com,non-unicorn,57.8,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00040,DeliveryTech Now,Michael Rivera,34-5678905,Logistics,NJ,Jersey City,2021-08-15,https://deliverytech.example.com,non-unicorn,57.1,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00041,GamingHub Platform,Evelyn Flores,45-6789016,Gaming,CA,Irvine,2022-04-01,https://gaminghub.example.com,non-unicorn,56.4,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00042,SocialConnect AI,Daniel Campbell,56-7890127,Social Media,NY,Brooklyn,2021-12-08,https://socialconnect.example.com,non-unicorn,55.7,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00043,NutritionTrack App,Abigail Mitchell,67-8901238,Health/Wellness,FL,Tampa,2022-01-25,https://nutritiontrack.example.com,non-unicorn,55.0,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00044,BuildTech Manage,Matthew Roberts,78-9012349,Construction Tech,TX,San Antonio,2021-09-20,https://buildtech.example.com,non-unicorn,54.3,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00045,CareerPath AI,Ella Carter,89-0123460,HR Tech,CA,Sacramento,2022-03-10,https://careerpath.example.com,non-unicorn,53.6,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00046,HomeFit Studios,Jackson Phillips,90-1234571,Fitness Tech,CO,Boulder,2021-11-12,https://homefit.example.com,non-unicorn,52.9,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00047,DataPrivacy Guard,Scarlett Evans,12-3456784,Cybersecurity,VA,Richmond,2022-02-15,https://dataprivacy.example.com,non-unicorn,52.2,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00048,EcoTransit Systems,Henry Turner,23-4567895,Transportation,OR,Eugene,2021-08-08,https://ecotransit.example.com,non-unicorn,51.5,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00049,MarketAnalyze Pro,Victoria Collins,34-5678906,Marketing Tech,IL,Chicago,2022-04-18,https://marketanalyze.example.com,non-unicorn,50.8,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00050,CloudSave Backup,Carter Stewart,45-6789017,Cloud Storage,WA,Redmond,2021-12-01,https://cloudsave.example.com,non-unicorn,50.1,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00051,FarmTech Connect,Grace Morris,56-7890128,AgTech,NE,Omaha,2022-01-12,https://farmtech.example.com,non-unicorn,49.4,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00052,BankTech Solutions,Owen Rogers,67-8901239,FinTech,NC,Raleigh,2021-09-25,https://banktech.example.com,non-unicorn,48.7,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00053,VideoCall Pro,Lily Reed,78-9012350,Communication,TX,Austin,2022-03-05,https://videocall.example.com,non-unicorn,48.0,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00054,WriterAI Assistant,Leo Bailey,89-0123461,AI/Machine Learning,CA,Berkeley,2021-11-08,https://writerai.example.com,non-unicorn,47.3,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00055,ShopLocal Platform,Zoe Cooper,90-1234572,E-commerce,GA,Savannah,2022-02-28,https://shoplocal.example.com,non-unicorn,46.6,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00056,ClimateTech Monitor,Nathan Richardson,12-3456783,CleanTech/Energy,MA,Worcester,2021-08-18,https://climatetech.example.com,non-unicorn,45.9,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00057,DesignFlow Studio,Hannah Cox,23-4567896,Design Software,NY,Buffalo,2022-04-11,https://designflow.example.com,non-unicorn,45.2,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00058,RentalTech Hub,Samuel Howard,34-5678907,Real Estate Tech,FL,Jacksonville,2021-12-15,https://rentaltech.example.com,non-unicorn,44.5,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00059,SchedulePro App,Penelope Ward,45-6789018,Productivity,WA,Vancouver,2022-01-08,https://schedulepro.example.com,non-unicorn,43.8,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00060,CodeReview AI,Isaac Torres,56-7890129,Developer Tools,CA,San Francisco,2021-09-12,https://codereview.example.com,non-unicorn,43.1,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00061,InventoryTrack Pro,Layla Peterson,67-8901240,Supply Chain,OH,Cincinnati,2022-03-20,https://inventorytrack.example.com,non-unicorn,42.4,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00062,WellnessCoach App,Luke Gray,78-9012351,Health/Wellness,CO,Fort Collins,2021-11-02,https://wellnesscoach.example.com,non-unicorn,41.7,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00063,BudgetPlan Finance,Stella Ramirez,89-0123462,FinTech,TX,Fort Worth,2022-02-12,https://budgetplan.example.com,non-unicorn,41.0,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00064,SafeDrive Monitor,Christian James,90-1234573,Automotive Tech,MI,Ann Arbor,2021-08-28,https://safedrive.example.com,non-unicorn,40.3,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00065,TeamCollab Hub,Aria Watson,12-3456782,Collaboration,CA,San Jose,2022-04-25,https://teamcollab.example.com,non-unicorn,39.6,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00066,ElectricVehicle Tech,Jayden Brooks,23-4567897,Automotive Tech,NV,Reno,2021-12-18,https://electricvehicle.example.com,non-unicorn,38.9,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00067,JobMatch Platform,Aurora Kelly,34-5678908,HR Tech,NY,Rochester,2022-01-05,https://jobmatch.example.com,non-unicorn,38.2,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00068,SmartFactory AI,Grayson Sanders,45-6789019,Manufacturing,PA,Pittsburgh,2021-09-15,https://smartfactory.example.com,non-unicorn,37.5,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00069,TranslateNow App,Nova Price,56-7890130,Language Tech,WA,Bellevue,2022-03-08,https://translatenow.example.com,non-unicorn,36.8,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00070,AudioEdit Studio,Elijah Bennett,67-8901241,Creative Tech,TN,Memphis,2021-11-22,https://audioedit.example.com,non-unicorn,36.1,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00071,TaskFlow Manage,Hazel Wood,78-9012352,Productivity,CA,Oakland,2022-02-05,https://taskflow.example.com,non-unicorn,35.4,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00072,CryptoWallet Secure,Wyatt Barnes,89-0123463,FinTech,FL,Fort Lauderdale,2021-08-12,https://cryptowallet.example.com,non-unicorn,34.7,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00073,MindHealth App,Violet Ross,90-1234574,Health/Wellness,MA,Cambridge,2022-04-15,https://mindhealth.example.com,non-unicorn,34.0,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00074,InvoicePro System,Lincoln Henderson,12-3456781,FinTech,TX,Plano,2021-12-08,https://invoicepro.example.com,non-unicorn,33.3,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00075,SensorNet IoT,Paisley Coleman,23-4567898,IoT/Smart Home,OR,Salem,2022-01-18,https://sensornet.example.com,non-unicorn,32.6,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00076,RecycleTech Pro,Easton Jenkins,34-5678909,Sustainability,WA,Tacoma,2021-09-05,https://recycletech.example.com,non-unicorn,31.9,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00077,LearnCode Platform,Savannah Perry,45-6789020,EdTech,CA,Fremont,2022-03-12,https://learncode.example.com,non-unicorn,31.2,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00078,BackupCloud Plus,Hudson Powell,56-7890131,Cloud Storage,NY,Syracuse,2021-11-28,https://backupcloud.example.com,non-unicorn,30.5,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00079,MediaStream Hub,Brooklyn Long,67-8901242,Entertainment,GA,Athens,2022-02-08,https://mediastream.example.com,non-unicorn,29.8,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00080,SecurityScan Pro,Maverick Patterson,78-9012353,Cybersecurity,VA,Norfolk,2021-08-25,https://securityscan.example.com,non-unicorn,29.1,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00081,MapRoute Optimize,Kinsley Hughes,89-0123464,Logistics,TX,El Paso,2022-04-05,https://maproute.example.com,non-unicorn,28.4,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00082,SmartDoor Systems,Jaxon Flores,90-1234575,IoT/Smart Home,FL,Clearwater,2021-12-12,https://smartdoor.example.com,non-unicorn,27.7,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00083,ProjectPlan Pro,Luna Washington,12-3456780,Productivity,CA,Santa Clara,2022-01-22,https://projectplan.example.com,non-unicorn,27.0,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00084,VoiceNote AI,Asher Butler,23-4567899,AI/Machine Learning,WA,Olympia,2021-09-18,https://voicenote.example.com,non-unicorn,26.3,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00085,PackageTrack Now,Skylar Simmons,34-5678910,Logistics,CO,Colorado Springs,2022-03-02,https://packagetrack.example.com,non-unicorn,25.6,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00086,WebBuilder Studio,Cameron Foster,45-6789021,Web Development,NY,Albany,2021-11-15,https://webbuilder.example.com,non-unicorn,24.9,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00087,EmailMarketing Pro,Eliana Gonzales,56-7890132,Marketing Tech,TX,Arlington,2022-02-25,https://emailmarketing.example.com,non-unicorn,24.2,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00088,DataBackup Secure,Miles Bryant,67-8901243,Cloud Storage,CA,Sunnyvale,2021-08-08,https://databackup.example.com,non-unicorn,23.5,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00089,FormBuilder App,Ivy Alexander,78-9012354,Productivity,FL,St Petersburg,2022-04-18,https://formbuilder.example.com,non-unicorn,22.8,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00090,ChatSupport AI,Kai Russell,89-0123465,Customer Service,WA,Everett,2021-12-05,https://chatsupport.example.com,non-unicorn,22.1,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00091,TimeTrack System,Quinn Griffin,90-1234576,HR Tech,OR,Bend,2022-01-15,https://timetrack.example.com,non-unicorn,21.4,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00092,NoteTake Plus,River Diaz,12-3456779,Productivity,CA,Pasadena,2021-09-28,https://notetake.example.com,non-unicorn,20.7,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00093,ContractSign Pro,Sage Hayes,23-4567900,LegalTech,NY,Yonkers,2022-03-18,https://contractsign.example.com,non-unicorn,20.0,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00094,FitnessPlan App,Phoenix Myers,34-5678911,Health/Wellness,CO,Lakewood,2021-11-08,https://fitnessplan.example.com,non-unicorn,19.3,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00095,MeetingRoom Book,Rowan Ford,45-6789022,Productivity,TX,Irving,2022-02-12,https://meetingroom.example.com,non-unicorn,18.6,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00096,PasswordVault Secure,Sage Hamilton,56-7890133,Cybersecurity,CA,Long Beach,2021-08-22,https://passwordvault.example.com,non-unicorn,17.9,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00097,InvoiceSend Fast,Jordan Graham,67-8901244,FinTech,FL,Hialeah,2022-04-28,https://invoicesend.example.com,non-unicorn,17.2,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00098,ScreenShare Pro,Taylor Sullivan,78-9012355,Communication,WA,Kent,2021-12-18,https://screenshare.example.com,non-unicorn,16.5,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00099,DocumentScan App,Morgan Wallace,89-0123466,Productivity,OR,Gresham,2022-01-28,https://documentscan.example.com,non-unicorn,15.8,slow,Seed,6-10,100000-500000,2024-12-01
+A5K-00100,EventTicket Plus,Riley West,90-1234577,Event Tech,CA,Glendale,2021-09-08,https://eventticket.example.com,non-unicorn,15.1,slow,Seed,6-10,100000-500000,2024-12-01
